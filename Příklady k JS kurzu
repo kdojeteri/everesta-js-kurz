@@ -1,0 +1,41 @@
+Příklady k JS kurzu:
+
+Source Maps: http://www.transcrypt.org/live/transcrypt/demos/pong/pong.html
+✔debugging: vanilla todomvc
+
+✔objekty, funkce, konstruktorové funkce, statické vlastnosti
+
+✔prototypy, Object.create, function.prototype
+
+✔class
+
+bind, call, apply, (+ arrow functions)
+
+var, let, const
+
+setTimeout animation (callbacks, promises, async-await)
+
+"click me (n)" button pro LocalStorage (+ varianta se "storage" event), SessionStorage
+
+"click me (n)" button pro Cookies + server "v době generování stránky bylo kliknuto n-krát"
+
+
+
+Nakažení vs dopravní nehody
+
+Fetch: 
+- stáhnout kumulativní data okresů z https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19
+- přeložit NUTS kódy krajů do češtiny
+- sečíst data za poslední den / týden a vypsat výsledek na stránku
+
+Koa:
+použít tyto zdroje na počty nehod podle kraje
+https://aplikace.policie.cz/dopravni-informace/
+https://github.com/JirkaChadima/cz-region-boundaries
+https://github.com/substack/point-in-polygon
+
+endpoint na získání informací
+
+cookies?
+
+Univerzální aplikace: Koa
